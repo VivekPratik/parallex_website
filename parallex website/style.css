@@ -1,0 +1,58 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: brown;
+}
+.p1{
+    background-image: url(2022_Electric-Trucks_iStock-879265016.jpeg);
+    min-height: 100%;
+}
+.p2{
+    background-image: url(luxerious\ maggiage.webp);
+    min-height: 400px;
+}
+.p3{
+    background-image: url(logistic-770x433.webp);
+    min-height: 400px;
+}
+.p1,
+.p2,
+.p3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: bisque;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    background-color: rgb(43, 22, 22);
+    color: antiquewhite;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.lightsection{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.darksection{
+    background-color: #666;
+    color: azure;
+}
